@@ -1,0 +1,159 @@
+
+.logo-container{
+    align-items: center;
+}
+
+.logo-container img {
+    
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 700px;
+    top: -155px;
+}
+
+#top-bar-container{
+    background: black;
+    height: 50px;
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: -70px;
+
+}
+
+#top-bar-container #smarthint-search-input{
+    border: none !important;
+    background-color:var(--color-background);
+    width: 35%;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 263px;
+    left: 600px;
+
+    transition: .2s;
+    
+}
+
+
+
+#check-menu{
+    display: none;
+    
+}
+
+#icon-menu{
+    margin-top: -8px ;
+    cursor: pointer;
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+    width: 10px
+}
+
+#icon-menu img{
+    width: 40px;
+}
+
+.menu-bar{
+    border-radius: 20px;
+    background: black;
+    height: 35%;
+    width: 300px;
+    position: absolute;
+    transition: all .3s linear;
+    opacity: 0;
+    
+    
+}
+
+.menu-bar nav{
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    
+}
+
+.menu-bar nav a{
+    text-decoration: none;
+    
+}
+
+.options-menu{
+    padding: 20px;
+    font-family: Lexend Mega;
+    font-size: 12pt;
+    transition: all .2s linear;
+    color: white;
+}
+
+.options-menu:hover{
+    background-color: #494950;
+}
+
+#check-menu:checked ~ .menu-bar{
+    opacity: 100%;
+
+}
+
+.logo-container #subtitle{
+    position: absolute;
+    width: 500px;
+    left: 710px;
+    top: -55px;
+    font: 700 40px Cookie;
+}
+
+.page-header #top-bar-container a img {
+    width: 45px;
+    top: 30px;
+}
+
+#whatsapp-button{
+    position: absolute;
+    left: 1750px;
+    
+}
+
+#instagram-button{
+    position: absolute;
+    left: 1700px;
+}
+
+.news-container  img{
+    border-radius: 20px;
+    border: none;
+    margin-top: 70px;
+
+}
+
+.products{
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-gap: 300px;
+    justify-content: center;
+    position: absolute;
+    left: 460px;
+    padding-top: 40px;
+}
+
+.products img{
+    width: 300px;
+    border-radius: 20px;
+    margin-bottom: -100px;
+}
+
+.products img:hover{
+    transition: 0.5s;
+    margin-top: 30px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-gap: 20px;
+}
+
+.grid div{
+    border: 1px solid rgb(0,95,107);
+}
